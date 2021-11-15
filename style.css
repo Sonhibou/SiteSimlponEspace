@@ -262,9 +262,102 @@ hr{
     font-weight: bold;
     margin-left: 55%;
 }
+@media screen and (max-width: 600px) {
+    .offre h2{
+        margin-left: 18px;
+        font-size: 20px;
+        text-align: center;
+    }
+  }
 .offre img{
     width: 100%;
 }
 .offre .row{
-    padding: auto;
+    margin-top: 0px;
+}
+.offre .card{
+    border: none;
+}
+.offre .col-md{
+    padding-top: 10px;
+}
+.offre input{
+    height: 50px;
+    box-shadow:10px ;
+}
+
+.offre #texterea{
+    width: 100%;
+    height: 150px;
+}
+.offre #exampleCheck1{
+    height: 16px;
+}
+.offre .envoyeroffre{
+    border: 1px solid #CE0033; 
+    border-radius: 10px; 
+    background: #CE0033; 
+    color: #FFFFFF; 
+    width: 150px; 
+    height: 50px;
+    margin-left: 40%;
+}
+.offre .envoyeroffre:hover{
+    border: 1px solid #CE0033; 
+    border-radius: 10px; 
+    background: #FFFFFF; 
+    color: #CE0033; 
+    width: 150px; 
+    height: 50px;
+    margin-left: 40%;
+}
+
+/* ---------Partenaire-------- */
+.partenaire h2{
+    color: #CE0033; 
+    margin-left: 40px; 
+    margin-top: 30px;
+    font-weight: bold;
+}
+.partenaire h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.partenaire .barre{
+    margin-left: 39px;
+}
+.partenaire .parh3{
+    margin-left: 50px;
+    padding-top: 34px;
+}
+.partenaire #partenaire1{
+    width: 100%;
+}
+.partenaire #carouselExampleDark{
+    width: 70%;
+    margin-top: -230px;
+    margin-left: 230px;
+}
+.partenaire .d-block{
+    height: 500px;
+}
+/* @media screen and (max-width: 600px) {
+    .partenaire #carouselExampleDark{
+        height: 20px;
+        margin-left: 50px;
+    }
+}*/
+.partenaire .row h3{
+    color: #CE0033;
+    font-weight: bold;
+    margin-left: -5px;
+}
+.partenaire .row p{
+    line-height: 2;
+    margin-left: 20px;
+}
+.partenaire .team{
+    width: 90%;
+    margin-left: 20px;
 }
