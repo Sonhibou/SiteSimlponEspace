@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,13 +32,13 @@
                   <a class="nav-link ms-5 active" href="#" id="trait">Espaces</a>
                   <a class="nav-link ms-5" href="#">Nos entités</a>
                   <a class="nav-link ms-5" href="#"><img src="Images/search.png" class="loupe" alt=""></a>
-                  <li class="nav-item dropdown">
+                  <div class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle ms-5" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fr</a>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">En</a></li>
                       </ul>
-                  </li>
-                  <a class="nav-link" href="#"><button class="btn-contact">Contact</button></a>                  
+                  </div>
+                 <button class="btn-contact">Contact</button>             
                 </div>
               </div>
             </div>
@@ -188,11 +188,12 @@
       <div class="offre">
         <h3>Déposer une offre</h3>
         <div class="barre"></div>
-        <article>
+        <p>
+          
           Sur la gauche de l’écran, repérez immédiatement où vous en êtes de votre saisie et complétez les champs dans l’ordre qui vous convient. 
           Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée.Sur la gauche de l’écran, repérez immédiatement où vous en êtes de votre saisie et complétez les champs dans l’ordre qui vous convient. 
           Si vous interrompez votre saisie, celle-ci est automatiquement sauvegardée.
-        </article>
+        </p>
         <br>
         <h2>Veuillez renseigner le formulaire</h2>
         <div class="card mb-3">
@@ -202,86 +203,83 @@
               </div>
               
               <div class="col-md-6">
-                <form action="">
-                <div class="row g-2">
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label for="formGroupExampleInput" class="form-label"></label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Prenom *">
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label for="formGroupExampleInput" class="form-label"></label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nom *">
-                    </div>
-                  </div>
-                </div>
-                <!-- -->
-                <div class="row g-2">
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label for="formGroupExampleInput" class="form-label"></label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Entreprise *">
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label for="formGroupExampleInput" class="form-label"></label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email *">
-                    </div>
-                  </div>
-                </div>
-                <!--  -->
-                <div class="row g-2">
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label for="formGroupExampleInput" class="form-label"></label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Telephone *">
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <div class="form-group">
-                      <label for="formGroupExampleInput" class="form-label"></label>
-                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Profil recherché *">
-                    </div>
-                  </div>
-                </div>
-
-                <!--  -->
-                <div class="row g-2">
-                  <div class="col-md">
-                   
-                  </div>
-                  <div class="col-md">
-                    <div class="form-group">
-                      <input type="file" value="Joindre un fichier">
-                    </div>
-                  </div>
-                </div>
-
-                  <!--  -->
-                  <div class="row g-2">
-                   
-                      <div class="form-group">
-                        <textarea class="form-control" id="texterea" placeholder="Message *"></textarea>
+                  <form action="#">
+                      <div class="row g-2">
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label for="formGroupExampleInput" class="form-label"></label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Prenom *">
+                          </div>
+                        </div>
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label for="formGroupExampleInput" class="form-label"></label>
+                            <input type="text" class="form-control" placeholder="Nom *">
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    <div class="row g-2">
-                      <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">J'accepte les termes et la politique</label>
+                      <!-- -->
+                      <div class="row g-2">
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label for="formGroupExampleInput" class="form-label"></label>
+                            <input type="text" class="form-control" placeholder="Entreprise *">
+                          </div>
+                        </div>
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label for="formGroupExampleInput" class="form-label"></label>
+                            <input type="text" class="form-control"  placeholder="Email *">
+                          </div>
+                        </div>
                       </div>
-                    </div>
-
-                    <button class="envoyeroffre">Envoyer</button>
-                  </div>
-
+                      <!--  -->
+                      <div class="row g-2">
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label for="formGroupExampleInput" class="form-label"></label>
+                            <input type="text" class="form-control" placeholder="Telephone *">
+                          </div>
+                        </div>
+                        <div class="col-md">
+                          <div class="form-group">
+                            <label for="formGroupExampleInput" class="form-label"></label>
+                            <input type="text" class="form-control"  placeholder="Profil recherché *">
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--  -->
+                      <div class="row g-2">
+                        <div class="col-md">
+                        
+                        </div>
+                        <div class="col-md">
+                          <div class="form-group">
+                            <input type="file">
+                          </div>
+                        </div>
+                      </div>
+    
+                        <!--  -->
+                        <div class="row g-2">
+                        
+                            <div class="form-group">
+                              <textarea class="form-control" id="texterea" placeholder="Message *"></textarea>
+                            </div>
+                        </div>
+                          <div class="row g-2">
+                            <div class="form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">J'accepte les termes et la politique</label>
+                            </div>
+                          </div>
+                          <button class="envoyeroffre">Envoyer</button>
+                      </form>
+                </div>
                   
-              </form>
               </div>
            </div>
-        </div>
         </div>
     </section>
     <br>
@@ -294,11 +292,12 @@
         <!-- <h3 class="parh3">Nos parrains</h3> -->
         <img src="Images/partenaire1.png" alt="" id="partenaire1">
         <!--Carousel-->
+        <div class="carousel1">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background: #CE0033; border-radius:10px; width: 20px; height :2px"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" style="background: #CE0033; border-radius:10px; width: 20px; height :2px"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" style="background: #CE0033; border-radius:10px; width: 20px; height :2px"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
@@ -324,7 +323,7 @@
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: #CE0033;"></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
@@ -332,18 +331,134 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
         <br>
         <!--Fin Carousel-->
         <div class="row">
           <div class="col-md-6">
-            <h3>Parrainer une cohorte</h3>
+            <h3>C'est quoi une cohorte</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, minus impedit? Perferendis numquam iusto nesciunt, nisi vel at, dolores minima sed, autem in expedita cum cupiditate et corporis. Autem, reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, porro. Odio dolorum temporibus tempora itaque magnam sit ex perspiciatis, quod omnis vel aliquam possimus voluptatem! Debitis earum vel excepturi ex!</p>
             <img src="Images/team.png" alt="" class="team">
           </div>
           <div class="col-md-6">
-
+            <h3 class="cohorte" style="margin-left: 220px;">Nos cohortes en cours</h3>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card" style="width: 18rem;">
+                    <img src="Images/slide1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h2>Promo 4 DWWWM</h2>
+                      </div>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button class="btn-parrainer">Parrainer</button>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="Images/slide2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h2>Promo 4 SaaS</h2>
+                      </div>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button class="btn-parrainer">Parrainer</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card" style="width: 18rem;">
+                    <img src="Images/slide3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title">
+                        <h2>Promo Referent Digital</h2>
+                      </div>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button class="btn-parrainer">Parrainer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
+    <br>
+    <!--Section Activité-->
+    <section>
+      <div class="activite">
+        <h2>Participer aux activités de la formartion</h2>
+        <div class="barre"></div><br>
+        <h3>Nos dernière activités</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam alias in, officiis aut sunt reprehenderit ipsum aperiam, veritatis, recusandae incidunt obcaecati dolore enim officia quae asperiores velit quas quidem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eligendi dolores accusantium quod! Laboriosam repellat in velit sequi ipsum numquam impedit rerum provident. Vel, minus praesentium! Doloribus distinctio quos iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ex voluptates maiores atque assumenda reiciendis debitis impedit rerum commodi, sapiente, architecto consequatur, soluta ab nulla velit adipisci veniam. Minima, obcaecati?</p>
+          </div>
+          <div class="col-md-6">
+            <img src="Images/activite.png" alt="" class="img-activite">
+            <a href="#">Voir toutes nos activités</a>
+          </div>
+      </div>
+      
+      <h3 class="why"><b>Pourquoi participer à nos activités ? </b></h3>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="Images/why.png" alt="" class="img-why">
+          </div>
+          <div class="col">
+            <h3 id="h3-activite">Votre participation </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestias quibusdam autem animi provident ipsum ut? Praesentium impedit laudantium corrupti, tempora nihil adipisci ipsum, corporis at recusandae commodi quas quod! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, eius molestiae? Tempora facilis ab id ex tempore? Minus voluptatem magni necessitatibus dignissimos soluta quos debitis obcaecati consequuntur similique, cum accusantium.</p> 
+            <div class="row">
+             <div class="col-md-6">
+              <p class="p1"><img src="Images/check.png" alt="" class="img-check">Lorem ipsum dolor sit amet consectetur </p>
+              <p class="p1"><img src="Images/check.png" alt="" class="img-check">Lorem ipsum dolor sit amet consectetur </p>
+             </div>
+             <div class="col-md-6">
+              <p class="p1"><img src="Images/check.png" alt="" class="img-check">Lorem ipsum dolor sit amet consectetur</p>
+              <p class="p1"><img src="Images/check.png" alt="" class="img-check">Lorem ipsum dolor sit amet consectetur</p>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section>
+      <div class="comment-participer">
+        <h3 class="h3-cp"><b>Comment participer ? </b></h3>
+        <div class="row">
+          <div class="col-md-8">
+            <img src="Images/cercle" alt="" class="img-cercle">
+            <p class="text-cercle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, doloribus eveniet. Corporis suscipit optio sint. <br> Repudiandae, <br> aperiam iure aliquam nam magnam recusandae harum a natus porro, praesentium aut ducimus temporibus!
+            </p>
+          </div>
+          
+              <div class="btn-btn">
+                <button class="cercle-btn">
+                  01
+              <!--     <button class="btn-01">
+                    <span class="title-btn">Nos différentes activités</span><br>
+                    <span class="body-btn">Lorem ipsum</span>
+                  </button> -->
+                  <div class="div-cursor"></div>
+                </button>
+              </div>
+          
+        
+      </div>
       </div>
     </section>
   </main>
